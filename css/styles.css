@@ -1,0 +1,67 @@
+#wrapper {
+  margin:auto;
+  width:1440px;
+}
+input {
+  width:50px;
+}
+#map {
+  border:1px solid gray;
+  border-radius:10px;
+  margin:5px;
+}
+
+
+html {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.stateMap {
+  stroke: black;
+}
+.stateMap .active {
+  fill: orange;
+}
+.stateline {
+  fill: none;
+  stroke: black;
+  stroke-width: 2;
+}
+.stateSelected {
+  stroke-width:4;
+}
+
+.colorLegend line{
+  stroke:white;
+  fill:grey;
+}
+.colorLegend .domain {
+  stroke:none;
+}
+
+h2, h3 {
+  text-align:center;
+}
+
+
+
+#tooltip {
+  border:1px solid gray;
+  border-radius:5px;
+  background-color: white;
+  position:absolute;
+  padding:10px;
+}
+#bar {
+  
+  border:1px solid gray;
+  border-radius:5px;
+  background-color: white;
+  position:absolute;
+  padding:10px;
+  
+}
+
+
+
+
